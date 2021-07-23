@@ -3,22 +3,29 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "14.16.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/app.js -e js,hbs"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "Babel": "0.0.1",
+    "Babel": "^0.0.1",
     "express": "^4.17.1",
     "hbs": "^4.1.2",
     "mongoose": "^5.13.3",
     "node": "^16.5.0",
     "requests": "^0.3.0",
     "validator": "^13.6.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js -e js,hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prashant95861/dyp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prashant95861/dyp/issues"
+  },
+  "homepage": "https://github.com/Prashant95861/dyp#readme"
 }
