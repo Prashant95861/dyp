@@ -45,7 +45,6 @@ app.get("*",(req,res) => {
     res.send("page couldn't be found");
 })
 
-app.set("port",port);
 app.listen(port,() => {
     console.log("listening");
 })

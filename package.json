@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/app.js -e js,hbs"
+    "start": "nodemon --exec node src/app.js -e js,hbs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "Babel": "0.0.1",
     "express": "^4.17.1",
     "hbs": "^4.1.2",
     "mongoose": "^5.13.3",
