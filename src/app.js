@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 const path = require("path");
 const requests = require("requests");
 
@@ -45,6 +45,7 @@ app.get("*",(req,res) => {
     res.send("page couldn't be found");
 })
 
+app.set("port",port);
 app.listen(port,() => {
     console.log("listening");
 })
